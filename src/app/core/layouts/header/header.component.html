@@ -1,1 +1,63 @@
-<p>header works!</p>
+<div class="etiquetas d-flex justify-content-center" style="background-color: #60721F;">
+  <p>Hacemos entregas los Martes y Jueves</p><i class="fa-solid fa-truck-fast fa-bounce mt-1 mx-2 icon-animate-car"></i>
+</div>
+
+<!-- Nav movil -->
+<nav class="navbar navbar-expand-md bg-body-tertiary nav-bar-movil">
+
+  <div class="container-fluid">
+    <div class="d-flex">
+      <img src="{{logo}}" class="navbar-brand">
+    </div>
+
+    <div id="nav-bar-movil__toggler">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <i class="fa-solid fa-bag-shopping fa-sm ms-auto shoping-cart mx-2" style="color: #172601; font-size: 30px;"></i>
+    </div>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent" style="color: #172601;">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-center nav-bar-movil-links">
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="#">Quienes Somos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Productos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Comó comprar</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contacto</a>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+</nav>
+
+<!-- Nav Desktop -->
+<nav class="navbar navbar-expand-md bg-body-tertiary nav-bar-desktop">
+  <div class="container-fluid">
+    <div class="d-flex">
+      <img src="{{logo}}" class="navbar-brand-desktop">
+    </div>
+
+    <div class="collapse navbar-collapse desktop-seach-bar my-2" id="navbarSupportedContent">
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Buscar Producto..." aria-label="Search">
+      </form>
+    </div>
+
+    <i class="fa-solid fa-bag-shopping fa-sm ms-auto shoping-cart mx-2" style="color: #172601; font-size: 30px;"></i>
+
+  </div>
+</nav>
+
+<div class="etiquetas-2" style="background-color: #60721F;">
+  <a class="nav-link" aria-current="page" href="#">Quienes Somos</a>
+  <a class="nav-link active" href="#">Productos</a>
+  <a class="nav-link" href="#">Comó comprar</a>
+  <a class="nav-link" href="#">Contacto</a>
+</div>

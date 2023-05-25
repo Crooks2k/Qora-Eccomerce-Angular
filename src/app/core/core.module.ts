@@ -18,6 +18,13 @@ import { NotFoundComponent } from './layouts/not-found/not-found.component';
   ],
   imports: [
     CommonModule
+  ],
+  exports: [
+    LoaderComponent,
+    AnimateComponent,
+    HeaderComponent,
+    FooterComponent,
+    NotFoundComponent
   ]
 })
 export class CoreModule { }
