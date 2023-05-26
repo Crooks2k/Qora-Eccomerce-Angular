@@ -6,8 +6,6 @@ import { HeaderComponent } from './layouts/header/header.component';
 import { FooterComponent } from './layouts/footer/footer.component';
 import { NotFoundComponent } from './layouts/not-found/not-found.component';
 
-
-
 @NgModule({
   declarations: [
     LoaderComponent,
